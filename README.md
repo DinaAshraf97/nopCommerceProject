@@ -4,7 +4,7 @@ nopCommerce is a free and open-source eCommerce platform and it is the most popu
 
 This project is for atomation testing for the main functionality of the website.
 
-![image](https://github.com/DinaAshraf97/nopCommerceProject/assets/138103067/963df5bf-467d-404d-aadc-9fac44450e17)
+![image](https://github.com/DinaAshraf97/nopCommerceProject/assets/138103067/6157de09-2a59-43fd-8a3d-0f919c2cd2a1)
 
 ## Features:
 - Register
@@ -17,8 +17,6 @@ This project is for atomation testing for the main functionality of the website.
 - Wishlist
 - Shopping Cart
   
-	![image](https://github.com/DinaAshraf97/nopCommerceProject/assets/138103067/b64ec1a9-8d43-4b06-b77b-6896e1119bf1)
-
 ## Tools and Technologies:
 - Selenium 4
 - Maven
