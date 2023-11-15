@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.714" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="F03_Currencies | The user able to change currency successfully" name="" time="12.239">
+<system-out><![CDATA[
+When user select Euro currency..............................................passed
+Then Euro Symbol is shown on products displayed in Home page................passed
+]]></system-out>
+</testcase>
+</testsuite>

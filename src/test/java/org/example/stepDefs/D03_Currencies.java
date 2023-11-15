@@ -12,7 +12,7 @@ public class D03_Currencies {
     @When("user select Euro currency")
     public void userSelectEuroCurrency() {
         Select euro =new Select( home.currency);
-        euro.selectByValue("https://demo.nopcommerce.com/changecurrency/6?returnUrl=%2F");
+        euro.selectByVisibleText("Euro");
     }
 
     @Then("Euro Symbol is shown on products displayed in Home page")
@@ -22,6 +22,24 @@ public class D03_Currencies {
        int i;
         for(i=0;i<=3;i++) {
             Boolean actualPrices = home.price.get(i).getText().contains("€");
+            Assert.assertTrue(actualPrices);
+        }
+
+    }
+
+    @When("user select Dollar currency")
+    public void userSelectDollarCurrency() {
+        Select dollar =new Select( home.currency);
+        dollar.selectByVisibleText("US Dollar");
+    }
+
+    @Then("Dollar Symbol is shown on products displayed in Home page")
+    public void dollarSymbolIsShownOnProductsDisplayedInHomePage() {
+        //hard assertion
+        //Dollar Symbol displayed on the 4 products price
+        int i;
+        for(i=0;i<=3;i++) {
+            Boolean actualPrices = home.price.get(i).getText().contains("$");
             Assert.assertTrue(actualPrices);
         }
 

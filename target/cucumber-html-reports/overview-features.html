@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                50,
+                218,
+                25,
                 5,
-                2,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 57) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 248) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                14,
-                5
+                37,
+                25
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 19) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 62) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   5,
-                   3
+                   2,
+                   7
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 8) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 9) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>01 Jul 2023, 18:27</td>
+      <td>15 Nov 2023, 21:08</td>
     </tr>
   </tbody>
 </table>
@@ -327,124 +327,39 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_2543890845.html">F01_Register | users could register with new accounts</a></td>
 
-        <td      class="passed"    >8</td>
+        <td      class="passed"    >107</td>
+        <td      class="failed"    >9</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td >0</td>
-        <td class="total">8</td>
+        <td class="total">116</td>
 
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
+        <td  class="passed"    >8</td>
+        <td  class="failed"    >9</td>
+        <td class="total">17</td>
 
-        <td class="duration" data-value="4017774800">4.017</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="88967690200">1:28.967</td>
+        <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-feature_1_2673032606.html">F02_Login | users could use login functionality to use their accounts</a></td>
 
-        <td      class="passed"    >8</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">8</td>
-
-        <td  class="passed"    >2</td>
-        <td >0</td>
-        <td class="total">2</td>
-
-        <td class="duration" data-value="3872869000">3.872</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_2_3298341735.html">F03_Currencies | The user able to change currency successfully</a></td>
-
-        <td      class="passed"    >2</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">2</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="1136402500">1.136</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_3_2446315007.html">F04_Search | The user able to search</a></td>
-
-        <td      class="passed"    >20</td>
+        <td      class="passed"    >25</td>
         <td      class="failed"    >1</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">21</td>
+        <td class="total">26</td>
 
         <td  class="passed"    >5</td>
         <td  class="failed"    >1</td>
         <td class="total">6</td>
 
-        <td class="duration" data-value="23172767900">23.172</td>
+        <td class="duration" data-value="14586488700">14.586</td>
         <td class="failed">Failed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-feature_4_2801372496.html">F05_hoverCategories | The user able to hover on main categories</a></td>
-
-        <td      class="passed"    >2</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">2</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="2127481300">2.127</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_5_3922253228.html">F06_homeSliders | The user able to click on sliders on the home page</a></td>
-
-        <td >0</td>
-        <td      class="failed"    >2</td>
-        <td     class="skipped"   >2</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">4</td>
-
-        <td >0</td>
-        <td  class="failed"    >2</td>
-        <td class="total">2</td>
-
-        <td class="duration" data-value="10660490100">10.660</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_6_2037800387.html">F07_followUs | The user able to open follow us links</a></td>
-
-        <td      class="passed"    >6</td>
-        <td      class="failed"    >2</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">8</td>
-
-        <td  class="passed"    >2</td>
-        <td  class="failed"    >2</td>
-        <td class="total">4</td>
-
-        <td class="duration" data-value="24548475500">24.548</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_7_1470440856.html">F08_Wishlist | The user can add products to wishlist</a></td>
+        <td class="tagname"><a href="report-feature_2_3298341735.html">F03_Currencies | The user able to change currency successfully</a></td>
 
         <td      class="passed"    >4</td>
         <td >0</td>
@@ -457,41 +372,143 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="11777688600">11.777</td>
+        <td class="duration" data-value="1184627900">1.184</td>
         <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_3_2446315007.html">F04_Search | The user able to search</a></td>
+
+        <td      class="passed"    >40</td>
+        <td      class="failed"    >2</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">42</td>
+
+        <td  class="passed"    >11</td>
+        <td  class="failed"    >2</td>
+        <td class="total">13</td>
+
+        <td class="duration" data-value="61052168600">1:1.052</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_4_2801372496.html">F05_hoverCategories | The user able to hover on main categories</a></td>
+
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+
+        <td  class="passed"    >2</td>
+        <td >0</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="7416855700">7.416</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_5_3922253228.html">F06_homeSliders | The user able to click on sliders on the home page</a></td>
+
+        <td      class="passed"    >2</td>
+        <td      class="failed"    >2</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+
+        <td >0</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="12351668000">12.351</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_6_2037800387.html">F07_followUs | The user able to open follow us links</a></td>
+
+        <td      class="passed"    >7</td>
+        <td      class="failed"    >1</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">8</td>
+
+        <td  class="passed"    >3</td>
+        <td  class="failed"    >1</td>
+        <td class="total">4</td>
+
+        <td class="duration" data-value="14436162000">14.436</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_7_1470440856.html">F08_Wishlist | The user can use the functionality of adding products to wishlist successfully</a></td>
+
+        <td      class="passed"    >14</td>
+        <td      class="failed"    >6</td>
+        <td     class="skipped"   >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">23</td>
+
+        <td  class="passed"    >2</td>
+        <td  class="failed"    >6</td>
+        <td class="total">8</td>
+
+        <td class="duration" data-value="21610892100">21.610</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_8_658947610.html">F09_ShoppingCart | The user can use the functionality of adding products to cart successfully</a></td>
+
+        <td      class="passed"    >15</td>
+        <td      class="failed"    >4</td>
+        <td     class="skipped"   >2</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">21</td>
+
+        <td  class="passed"    >4</td>
+        <td  class="failed"    >4</td>
+        <td class="total">8</td>
+
+        <td class="duration" data-value="100489287400">1:40.489</td>
+        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>50</td>
+      <td>218</td>
+      <td>25</td>
       <td>5</td>
-      <td>2</td>
       <td>0</td>
       <td>0</td>
-      <td>57</td>
+      <td>248</td>
 
-      <td>14</td>
-      <td>5</td>
-      <td>19</td>
+      <td>37</td>
+      <td>25</td>
+      <td>62</td>
 
-      <td class="duration">1:21.313</td>
-      <td>8</td>
+      <td class="duration">5:22.095</td>
+      <td>9</td>
     </tr>
     <tr>
       <td></td>
-      <td>87.72%</td>
-      <td>8.77%</td>
-      <td>3.51%</td>
+      <td>87.90%</td>
+      <td>10.08%</td>
+      <td>2.02%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>73.68%</td>
-      <td>26.32%</td>
+      <td>59.68%</td>
+      <td>40.32%</td>
       <td></td>
       <td></td>
-      <td>62.50%</td>
+      <td>22.22%</td>
     </tr>
   </tfoot>
 </table>

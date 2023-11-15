@@ -25,7 +25,7 @@ This project is for atomation testing for the main functionality of the website.
 - POM Design Pattern
 - TestNG Assertion tool
 - Cucumber
-- Cucumber reporter
+- Maven Cucumber reporting
 
 ## Frameworks:
 - Modular Testing Framework
