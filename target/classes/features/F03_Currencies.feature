@@ -4,3 +4,6 @@
     Scenario:
       When user select Euro currency
       Then Euro Symbol is shown on products displayed in Home page
+    Scenario:
+      When user select Dollar currency
+      Then Dollar Symbol is shown on products displayed in Home page

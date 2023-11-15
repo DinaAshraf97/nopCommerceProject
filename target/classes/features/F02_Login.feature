@@ -5,7 +5,7 @@ Feature: F02_Login | users could use login functionality to use their accounts
     Given user go to login page
 
   Scenario: user could login with registered email and right password
-    When user login with "test@example.com" and "P@ssw0rd"
+    When user login with "test2@example.com" and "P@ssw0rd"
     And user press on login button
     Then user login to the system successfully
 

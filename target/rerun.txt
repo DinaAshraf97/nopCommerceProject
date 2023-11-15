@@ -1,0 +1,8 @@
+file:src/main/resources/features/F01_Register.feature:32:41:59:68:84:91:116:117:118
+file:src/main/resources/features/F06_homeSliders.feature:4:9
+file:src/main/resources/features/F02_Login.feature:23
+file:src/main/resources/features/F09_ShoppingCart.feature:9:10:12
+file:src/main/resources/features/F08_Wishlist.feature:9:10:12:24
+file:src/main/resources/features/F04_Search.feature:10:35
+file:src/main/resources/features/F07_followUs.feature:12
+

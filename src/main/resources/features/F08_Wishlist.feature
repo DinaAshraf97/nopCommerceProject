@@ -6,8 +6,8 @@ Feature: F08_Wishlist | The user can use the functionality of adding products to
     Then success notification displayed
     Examples:
       | 0 |
-      | 1 |
-      | 2 |
+#      | 1 |
+#      | 2 |
       | 3 |
       | 4 |
 

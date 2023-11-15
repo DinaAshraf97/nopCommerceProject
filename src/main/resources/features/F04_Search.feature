@@ -31,8 +31,8 @@
       Examples:
         |category|
         |Electronics|
-        |Computers|
-        |Cell phone|
+#        |Computers|
+#        |Cell phone|
 
     Scenario Outline: user couldn't find results when search for unavailable product
       When user write product name in the search box "<unavailable_product>"

@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>15 Nov 2023, 21:08</td>
+      <td>15 Nov 2023, 21:57</td>
     </tr>
   </tbody>
 </table>
@@ -129,9 +129,9 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">F06_homeSliders | The user able to click on sliders on the home page</td>
-          <td      class="passed"    >2</td>
+          <td      class="passed"    >1</td>
           <td      class="failed"    >2</td>
-          <td >0</td>
+          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
           <td class="total">4</td>
@@ -140,7 +140,7 @@ $(document).ready(function() {
           <td  class="failed"    >2</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="12351668000">12.351</td>
+          <td class="duration" data-value="11790782900">11.790</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -195,7 +195,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">2.966</span>
+  <span class="lead-duration duration">6.177</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -233,7 +233,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.stepDefs.Hooks.openBrowser()</span>
 
-  <span class="lead-duration duration">3.943</span>
+  <span class="lead-duration duration">14.521</span>
 
           </div>
 
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user clicks on the first slider</span>
 
-  <span class="lead-duration duration">2.956</span>
+  <span class="lead-duration duration">6.169</span>
 
 </div>
 
@@ -297,7 +297,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">direct user to <span class="argument">&quot;https://demo.nopcommerce.com/iphone-14-pro&quot;</span></span>
 
-  <span class="lead-duration duration">0.009</span>
+  <span class="lead-duration duration">0.007</span>
 
 </div>
 
@@ -362,7 +362,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">org.example.stepDefs.Hooks.quitDriver()</span>
 
-  <span class="lead-duration duration">0.352</span>
+  <span class="lead-duration duration">2.721</span>
 
           </div>
 
@@ -389,7 +389,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">9.385</span>
+  <span class="lead-duration duration">5.613</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
@@ -427,7 +427,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.stepDefs.Hooks.openBrowser()</span>
 
-  <span class="lead-duration duration">2.289</span>
+  <span class="lead-duration duration">10.462</span>
 
           </div>
 
@@ -460,11 +460,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When failed">
   <span class="keyword indention">When</span>
   <span class="name">user clicks on the second slider</span>
 
-  <span class="lead-duration duration">9.374</span>
+  <span class="lead-duration duration">5.613</span>
 
 </div>
 
@@ -472,6 +472,29 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-9">
+          <a>java.lang.IndexOutOfBoundsException:</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details  in ">
+        <pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+	at org.example.stepDefs.D06_homeSliders.userClicksOnTheSecondSlider(D06_homeSliders.java:37)
+	at &#10045;.user clicks on the second slider(file:///C:/Users/Dina/IdeaProjects/nopCommerce/src/main/resources/features/F06_homeSliders.feature:10)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -487,11 +510,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">direct user to <span class="argument">&quot;https://demo.nopcommerce.com/galaxy-s22-ultra&quot;</span></span>
 
-  <span class="lead-duration duration">0.010</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -499,26 +522,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-9">
-          <a>java.lang.AssertionError:</a>
-      </div>
-      <div id="msg-9" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/galaxy-s22-ultra] but found [https://demo.nopcommerce.com/]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at org.example.stepDefs.D06_homeSliders.directUserTo(D06_homeSliders.java:51)
-	at &#10045;.direct user to &quot;https://demo.nopcommerce.com/galaxy-s22-ultra&quot;(file:///C:/Users/Dina/IdeaProjects/nopCommerce/src/main/resources/features/F06_homeSliders.feature:11)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -556,7 +559,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">org.example.stepDefs.Hooks.quitDriver()</span>
 
-  <span class="lead-duration duration">0.255</span>
+  <span class="lead-duration duration">1.996</span>
 
           </div>
 
